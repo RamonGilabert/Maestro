@@ -1,0 +1,12 @@
+{
+  "name": "Maestro",
+  "version": "0.0.1",
+  "description": "Maestro",
+  "main": "public/index.js",
+  "repository": "hyperoslo/norges-bank-horisont-wardrobe",
+  "author": "Ramon Gilabert",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "webpack": "^1.12.1"
+  }
+}
