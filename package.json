@@ -7,6 +7,7 @@
   "author": "Ramon Gilabert",
   "license": "BSD-3-Clause",
   "devDependencies": {
+    "html-webpack-plugin": "^1.6.1",
     "webpack": "^1.12.1"
   }
 }
