@@ -2,7 +2,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   context: __dirname + '/public',
-  entry: './index.js',
+  entry: './index',
   output: {
     path: __dirname + '/public',
     filename: 'bundle.js',
@@ -13,13 +13,12 @@ module.exports = {
   module: {
     loaders: [
       {
-        test: /\.js?$/,
+        test: /\.js$/,
         loader: 'babel-loader',
-        exclude: /node_modules(?!\/shared-components)|shared-lib/,
+        exclude: /node_modules/,
       }
     ],
   },
-
   plugins: [
     new HtmlWebpackPlugin({
       inject: true,
