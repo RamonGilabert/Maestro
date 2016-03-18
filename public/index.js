@@ -1,4 +1,4 @@
-import Manipulator from "./manipulator"
-console.log("Sup")
+import * as Manipulator from "./manipulator"
+
 let website = new Manipulator.Website()
 website.thingy()

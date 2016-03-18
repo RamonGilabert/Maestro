@@ -1,6 +1,8 @@
-export class Website {
+class Website {
 
   thingy() {
     console.log("Thingy")
   }
 }
+
+export { Website }
